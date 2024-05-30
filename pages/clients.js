@@ -6,7 +6,7 @@ const Clients = () => {
       <div style={{ textAlign: 'left', marginBottom: '20px' }}>
         <img src="/BBV Intelligence Logo 1X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '600px' }} />
       </div>
-      <div style={{ textAlign: 'right', marginBottom: '20px' }}>
+      <div style={{ textAlign: 'right', marginBottom: '40px' }}>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '24px', fontWeight: 'bold' }}>Upload Files</span>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '24px', fontWeight: 'bold' }}>Client Portal</span>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '24px', fontWeight: 'bold' }}>Home</span>

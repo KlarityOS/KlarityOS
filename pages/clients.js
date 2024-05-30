@@ -1,14 +1,11 @@
 import React from 'react';
 
 const Clients = () => {
-  const headingStyle = {
-    fontSize: '48px',
-    color: 'black', 
-  };
-
   return (
     <div>
-      <h1 style={headingStyle}>BBV Intelligence</h1>
+      <div style={{ textAlign: 'left', marginBottom: '20px' }}>
+        <img src="/BBV Intelligence Logo.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '600px' }} />
+      </div>
       <iframe
         title="Power BI Dashboard"
         width="100%"

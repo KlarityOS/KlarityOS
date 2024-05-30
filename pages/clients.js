@@ -8,7 +8,7 @@ const Clients = () => {
 
   return (
     <div>
-      <h1 style={headingStyle}>Customers</h1>
+      <h1 style={headingStyle}>BBV</h1>
       <iframe
         title="Power BI Dashboard"
         width="100%"

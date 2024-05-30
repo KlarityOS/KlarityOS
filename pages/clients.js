@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <div>
       <div style={{ textAlign: 'left', marginBottom: '20px' }}>
-        <img src="/BBV Intelligence Logo 2X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '600px' }} />
+        <img src="/BBV Intelligence Logo 1X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '600px' }} />
       </div>
       <iframe
         title="Power BI Dashboard"

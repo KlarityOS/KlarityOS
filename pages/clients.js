@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <div>
       <div style={{ textAlign: 'left', marginBottom: '20px' }}>
-        <img src="/BBV Intelligence Logo 1X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '400px' }} />
+        <img src="/BBV Intelligence Logo 4X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '400px' }} />
       </div>
       <div style={{ textAlign: 'right', marginBottom: '40px' }}>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Upload Files</span>

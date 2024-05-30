@@ -2,7 +2,7 @@ import React from 'react';
 
 const Clients = () => {
   const headingStyle = {
-    fontSize: '78px',
+    fontSize: '48px',
     color: 'black', 
   };
 

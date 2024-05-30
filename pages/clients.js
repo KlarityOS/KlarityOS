@@ -6,6 +6,11 @@ const Clients = () => {
       <div style={{ textAlign: 'left', marginBottom: '20px' }}>
         <img src="/BBV Intelligence Logo 1X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '600px' }} />
       </div>
+      <div style={{ textAlign: 'right', marginBottom: '20px' }}>
+        <span style={{ margin: '0 15px', cursor: 'pointer' }}>Upload Files</span>
+        <span style={{ margin: '0 15px', cursor: 'pointer' }}>Client Portal</span>
+        <span style={{ margin: '0 15px', cursor: 'pointer' }}>Home</span>
+      </div>
       <iframe
         title="Power BI Dashboard"
         width="100%"

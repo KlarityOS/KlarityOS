@@ -6,7 +6,7 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             textAlign: 'center',
             height: '100vh',
             backgroundColor: '#ffffff',
@@ -20,11 +20,13 @@ const Beta = () => {
             </head>
             <div style={{
                 display: 'flex',
-                justifyContent: 'center',
+                justifyContent: 'space-between',
+                alignItems: 'center',
                 width: '100%',
-                position: 'absolute',
-                top: '20px'
+                maxWidth: '1200px',
+                marginBottom: '20px'
             }}>
+                <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '200px', marginRight: '20px' }} />
                 <nav style={{
                     display: 'flex',
                     gap: '20px'
@@ -55,7 +57,6 @@ const Beta = () => {
                     }}>CLIENT LOGIN</a>
                 </nav>
             </div>
-            <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '300px', marginBottom: '20px' }} />
             <div style={{
                 fontSize: '28px',
                 margin: '20px 0',
@@ -95,4 +96,3 @@ const Beta = () => {
 };
 
 export default Beta;
-

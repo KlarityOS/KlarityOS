@@ -20,26 +20,78 @@ const Beta = () => {
             </head>
             <div style={{
                 display: 'flex',
-                justifyContent: 'space-between',
+                justifyContent: 'center',
                 alignItems: 'center',
                 width: '100%',
                 maxWidth: '1200px',
                 marginBottom: '20px'
             }}>
-                <div style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    width: '100%'
-                }}>
-                    <a href="#" style={{
-                        color: '#000000',
-                        textDecoration: 'none',
-                        fontSize: '14px',
-                        cursor: 'pointer'
-                    }}>WHY US</a>
-                    <a href="#" style={{
-                        color: '#000000',
-                        textDecoration: 'none',
-                        fontSize: '14px',
-                        cursor: 'point
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '14px',
+                    margin: '0 20px',
+                    cursor: 'pointer'
+                }}>WHY US</a>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '14px',
+                    margin: '0 20px',
+                    cursor: 'pointer'
+                }}>PRICING</a>
+                <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ height: '50px', margin: '0 20px' }} />
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '14px',
+                    margin: '0 20px',
+                    cursor: 'pointer'
+                }}>FAQ</a>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '14px',
+                    margin: '0 20px',
+                    cursor: 'pointer'
+                }}>CLIENT LOGIN</a>
+            </div>
+            <div style={{
+                fontSize: '28px',
+                margin: '20px 0',
+                color: '#777777'
+            }}>
+                Your Center Message Here
+            </div>
+            <nav style={{
+                display: 'flex',
+                justifyContent: 'center',
+                gap: '40px',
+                marginTop: '20px',
+                fontSize: '24px',
+                color: '#777777'
+            }}>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
+            </nav>
+        </div>
+    );
+};
+
+export default Beta;

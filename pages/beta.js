@@ -54,11 +54,11 @@ const Beta = () => {
                 }}>CLIENT LOGIN</a>
             </div>
             <div style={{
-                fontSize: '64px',
+                fontSize: '70px',
                 color: '#000000',
                 textAlign: 'center',
                 margin: 'auto 0',
-                width: '100%'
+                width: '80%'
             }}>
                 What do you need clarity on today?
             </div>

@@ -11,7 +11,7 @@ const Beta = () => {
                 <link rel="stylesheet" href="/styles/globals.css" />
             </Head>
             <div className="container">
-                <Image src="/public/logo.png" alt="KLARITY" width={200} height={200} className="logo" />
+                <Image src="/public/KLARITY logo.png" alt="KLARITY" width={200} height={200} className="logo" />
                 <div className="centerMessage custom-font">Your Center Message Here</div>
                 <nav className="menu">
                     <a href="#" className="menuItem custom-font">HOME</a>

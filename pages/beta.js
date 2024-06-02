@@ -17,7 +17,7 @@ const Beta = () => {
                 <title>Klarity</title>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" />
             </head>
-            <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '200px', marginBottom: '20px' }} />
+            <img src="/KLARITY Logo.png" alt="KLARITY" style={{ width: '200px', marginBottom: '20px' }} />
             <div style={{
                 fontSize: '24px',
                 margin: '20px 0'

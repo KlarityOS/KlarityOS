@@ -6,7 +6,7 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
@@ -67,7 +67,8 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginTop: '10px'
+                marginTop: '10px',
+                marginBottom: '20px' // Added to bring the bottom menu closer to the center message
             }}>
                 <a href="#" style={{
                     color: '#777777',

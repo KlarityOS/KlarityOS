@@ -6,13 +6,12 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
-            textAlign: 'center',
+            justifyContent: 'space-between',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
             fontFamily: "'Shippori Antique', sans-serif",
-            padding: '20px'
+            padding: '20px 0'
         }}>
             <head>
                 <title>Klarity</title>
@@ -21,10 +20,9 @@ const Beta = () => {
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'flex-end',
+                alignItems: 'center',
                 width: '100%',
-                maxWidth: '1200px',
-                marginBottom: '20px'
+                marginBottom: '40px'
             }}>
                 <a href="#" style={{
                     color: '#000000',
@@ -57,41 +55,15 @@ const Beta = () => {
                 }}>CLIENT LOGIN</a>
             </div>
             <div style={{
-                fontSize: '60px',
-                margin: '20px 0',
-                color: '#777777'
+                fontSize: '36px',
+                textAlign: 'center',
+                color: '#777777',
+                margin: '0 auto'
             }}>
                 What do you need clarity on today?
             </div>
             <nav style={{
                 display: 'flex',
                 justifyContent: 'center',
-                gap: '40px',
-                marginTop: '20px',
-                fontSize: '24px',
-                color: '#777777'
-            }}>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
-            </nav>
-        </div>
-    );
-};
+    
 
-export default Beta;

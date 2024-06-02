@@ -6,23 +6,24 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             textAlign: 'center',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
-            fontFamily: "'Shippori Antique', sans-serif"
+            fontFamily: "'Shippori Antique', sans-serif",
+            padding: '20px'
         }}>
             <head>
                 <title>Klarity</title>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" />
             </head>
             <div style={{
-                position: 'absolute',
-                top: '20px',
-                width: '100%',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                width: '100%',
+                position: 'absolute',
+                top: '20px'
             }}>
                 <nav style={{
                     display: 'flex',
@@ -54,7 +55,7 @@ const Beta = () => {
                     }}>CLIENT LOGIN</a>
                 </nav>
             </div>
-            <img src="/KLARITY Logo.png" alt="KLARITY" style={{ width: '300px', marginBottom: '20px' }} />
+            <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '300px', marginBottom: '20px' }} />
             <div style={{
                 fontSize: '28px',
                 margin: '20px 0',
@@ -67,7 +68,8 @@ const Beta = () => {
                 justifyContent: 'center',
                 gap: '40px',
                 marginTop: '20px',
-                fontSize: '24px'
+                fontSize: '24px',
+                color: '#777777'
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -93,3 +95,4 @@ const Beta = () => {
 };
 
 export default Beta;
+

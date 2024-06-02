@@ -57,7 +57,7 @@ const Beta = () => {
                 fontSize: '64px',
                 color: '#000000',
                 textAlign: 'center',
-                margin: 'auto 0 40px 0',
+                margin: 'auto 0',
                 width: '80%'
             }}>
                 What do you need clarity on today?
@@ -69,7 +69,7 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginBottom: '40px' // Adjusted to bring the bottom menu closer to the center message
+                marginBottom: '40px'
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -98,14 +98,24 @@ const Beta = () => {
             </nav>
             <div style={{
                 display: 'flex',
-                justifyContent: 'center',
+                justifyContent: 'space-between',
                 width: '80%',
                 maxWidth: '1200px',
                 fontSize: '16px',
                 color: '#777777',
-                marginBottom: '20px' // Adjusted to bring the bottom menu closer to the center message
+                paddingTop: '10px',
+                marginTop: 'auto'
             }}>
-                <span>© 2024 Klarity</span>
+                <div style={{
+                    textAlign: 'left'
+                }}>
+                    <span>Built and operated by KRV Co., Ltd.</span>
+                </div>
+                <div style={{
+                    textAlign: 'right'
+                }}>
+                    <span>© 2024 KRV Co., Ltd.</span>
+                </div>
             </div>
         </div>
     );

@@ -57,7 +57,7 @@ const Beta = () => {
                 }}>CLIENT LOGIN</a>
             </div>
             <div style={{
-                fontSize: '28px',
+                fontSize: '60px',
                 margin: '20px 0',
                 color: '#777777'
             }}>
@@ -68,7 +68,7 @@ const Beta = () => {
                 justifyContent: 'center',
                 gap: '40px',
                 marginTop: '20px',
-                fontSize: '78px',
+                fontSize: '24px',
                 color: '#777777'
             }}>
                 <a href="#" style={{

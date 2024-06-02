@@ -21,17 +21,16 @@ const Beta = () => {
             <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
-                alignItems: 'flex-end',
+                alignItems: 'center',
                 width: '100%',
                 maxWidth: '1200px',
                 marginBottom: '20px'
             }}>
-                <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '200px' }} />
-                <nav style={{
+                <div style={{
                     display: 'flex',
                     justifyContent: 'space-between',
-                    width: '100%',
-                    maxWidth: '800px'
+                    alignItems: 'center',
+                    width: '100%'
                 }}>
                     <a href="#" style={{
                         color: '#000000',
@@ -41,4 +40,6 @@ const Beta = () => {
                     }}>WHY US</a>
                     <a href="#" style={{
                         color: '#000000',
-   
+                        textDecoration: 'none',
+                        fontSize: '14px',
+                        cursor: 'point

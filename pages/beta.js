@@ -69,7 +69,7 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginTop: '10px' // Moved directly under the center message
+                marginTop: '10px' // Positioning directly under the center message
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -104,7 +104,7 @@ const Beta = () => {
                 fontSize: '16px',
                 color: '#777777',
                 paddingTop: '10px',
-                marginTop: '10px' // Adjusted position of footer
+                marginTop: 'auto' // Adjusting the footer position slightly up
             }}>
                 <div style={{
                     textAlign: 'left'

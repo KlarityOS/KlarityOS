@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Clients = () => {
+const Demo = () => {
   return (
     <div>
       <div style={{ textAlign: 'left', marginBottom: '20px' }}>
@@ -23,4 +23,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Demo;

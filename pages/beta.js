@@ -104,7 +104,7 @@ const Beta = () => {
                 fontSize: '16px',
                 color: '#777777',
                 marginTop: 'auto', // Adjusting the footer position slightly up
-                paddingBottom: '20px' // Added padding to adjust the position of the footer
+                paddingBottom: '50px' // Added padding to adjust the position of the footer
             }}>
                 <div style={{
                     textAlign: 'left'

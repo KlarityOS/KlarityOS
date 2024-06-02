@@ -6,13 +6,12 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
             fontFamily: "'Shippori Antique', sans-serif",
-            padding: '20px',
-            position: 'relative'
+            padding: '20px'
         }}>
             <head>
                 <title>Klarity</title>
@@ -58,7 +57,7 @@ const Beta = () => {
                 fontSize: '64px',
                 color: '#000000',
                 textAlign: 'center',
-                margin: '40px 0',
+                margin: 'auto 0 40px 0',
                 width: '80%'
             }}>
                 What do you need clarity on today?
@@ -70,8 +69,7 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginTop: '10px',
-                marginBottom: '40px'
+                marginBottom: '40px' // Adjusted to bring the bottom menu closer to the center message
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -100,51 +98,14 @@ const Beta = () => {
             </nav>
             <div style={{
                 display: 'flex',
-                justifyContent: 'space-between',
+                justifyContent: 'center',
                 width: '80%',
                 maxWidth: '1200px',
                 fontSize: '16px',
                 color: '#777777',
-                marginTop: 'auto',
-                paddingTop: '10px',
-                borderTop: '1px solid #e0e0e0'
+                marginBottom: '20px' // Adjusted to bring the bottom menu closer to the center message
             }}>
                 <span>© 2024 Klarity</span>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Privacy Policy</a>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Terms of Service</a>
-            </div>
-            <div style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                width: '80%',
-                maxWidth: '1200px',
-                fontSize: '16px',
-                color: '#777777',
-                marginTop: '10px',
-                marginBottom: '10px'
-            }}>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Contact Us</a>
-                <a href="#" style={{
-                    color: '#777777',
-                    textDecoration: 'none',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Support</a>
             </div>
         </div>
     );

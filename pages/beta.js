@@ -17,46 +17,76 @@ const Beta = () => {
                 <title>Klarity</title>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" />
             </head>
-            <img src="/KLARITY Logo.png" alt="KLARITY" style={{ width: '200px', marginBottom: '20px' }} />
             <div style={{
-                fontSize: '24px',
-                margin: '20px 0'
+                position: 'absolute',
+                top: '20px',
+                width: '100%',
+                display: 'flex',
+                justifyContent: 'center'
+            }}>
+                <nav style={{
+                    display: 'flex',
+                    gap: '20px'
+                }}>
+                    <a href="#" style={{
+                        color: '#000000',
+                        textDecoration: 'none',
+                        fontSize: '14px',
+                        cursor: 'pointer'
+                    }}>WHY US</a>
+                    <a href="#" style={{
+                        color: '#000000',
+                        textDecoration: 'none',
+                        fontSize: '14px',
+                        cursor: 'pointer'
+                    }}>PRICING</a>
+                    <a href="#" style={{
+                        color: '#000000',
+                        textDecoration: 'none',
+                        fontSize: '14px',
+                        cursor: 'pointer'
+                    }}>FAQ</a>
+                    <a href="#" style={{
+                        color: '#000000',
+                        textDecoration: 'none',
+                        fontSize: '14px',
+                        cursor: 'pointer'
+                    }}>CLIENT LOGIN</a>
+                </nav>
+            </div>
+            <img src="/KLARITY Logo.png" alt="KLARITY" style={{ width: '300px', marginBottom: '20px' }} />
+            <div style={{
+                fontSize: '28px',
+                margin: '20px 0',
+                color: '#777777'
             }}>
                 Your Center Message Here
             </div>
             <nav style={{
                 display: 'flex',
                 justifyContent: 'center',
-                gap: '20px'
+                gap: '40px',
+                marginTop: '20px',
+                fontSize: '24px'
             }}>
                 <a href="#" style={{
-                    color: '#000000',
+                    color: '#777777',
                     textDecoration: 'none',
-                    fontSize: '18px',
                     transition: 'color 0.3s',
                     cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>HOME</a>
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
                 <a href="#" style={{
-                    color: '#000000',
+                    color: '#777777',
                     textDecoration: 'none',
-                    fontSize: '18px',
                     transition: 'color 0.3s',
                     cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>FEATURES</a>
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
                 <a href="#" style={{
-                    color: '#000000',
+                    color: '#777777',
                     textDecoration: 'none',
-                    fontSize: '18px',
                     transition: 'color 0.3s',
                     cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>PRICING</a>
-                <a href="#" style={{
-                    color: '#000000',
-                    textDecoration: 'none',
-                    fontSize: '18px',
-                    transition: 'color 0.3s',
-                    cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>CONTACT</a>
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
             </nav>
         </div>
     );

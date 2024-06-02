@@ -1,26 +1,64 @@
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import '../styles/beta.css'; // Correct import for the CSS file
 
 const Beta = () => {
     return (
-        <>
-            <Head>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textAlign: 'center',
+            height: '100vh',
+            backgroundColor: '#ffffff',
+            color: '#000000',
+            fontFamily: "'Shippori Antique', sans-serif"
+        }}>
+            <head>
                 <title>Klarity</title>
-                <link rel="stylesheet" href="/styles/globals.css" /> {/* Correct path to global CSS */}
-            </Head>
-            <div className="container">
-                <Image src="/KLARITY Logo.png" alt="KLARITY" width={200} height={200} className="logo" />
-                <div className="centerMessage custom-font">Your Center Message Here</div>
-                <nav className="menu">
-                    <a href="#" className="menuItem custom-font">HOME</a>
-                    <a href="#" className="menuItem custom-font">FEATURES</a>
-                    <a href="#" className="menuItem custom-font">PRICING</a>
-                    <a href="#" className="menuItem custom-font">CONTACT</a>
-                </nav>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" />
+            </head>
+            <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ width: '200px', marginBottom: '20px' }} />
+            <div style={{
+                fontSize: '24px',
+                margin: '20px 0'
+            }}>
+                Your Center Message Here
             </div>
-        </>
+            <nav style={{
+                display: 'flex',
+                justifyContent: 'center',
+                gap: '20px'
+            }}>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '18px',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>HOME</a>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '18px',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>FEATURES</a>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '18px',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>PRICING</a>
+                <a href="#" style={{
+                    color: '#000000',
+                    textDecoration: 'none',
+                    fontSize: '18px',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#777777'} onMouseOut={(e) => e.currentTarget.style.color = '#000000'}>CONTACT</a>
+            </nav>
+        </div>
     );
 };
 

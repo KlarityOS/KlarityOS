@@ -8,7 +8,7 @@ const Beta = () => {
         <>
             <Head>
                 <title>Klarity</title>
-                <link rel="stylesheet" href="/styles/global.css" />
+                <link rel="stylesheet" href="/styles/globals.css" />
             </Head>
             <div className="container">
                 <Image src="/public/logo.png" alt="KLARITY" width={200} height={200} className="logo" />

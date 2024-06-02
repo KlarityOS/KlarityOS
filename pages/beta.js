@@ -19,26 +19,22 @@ const Beta = () => {
             </head>
             <div style={{
                 display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                width: '100%',
+                justifyContent: 'space-between',
+                alignItems: 'flex-end',
+                width: '80%',
                 maxWidth: '1200px',
-                marginBottom: '20px'
+                marginTop: '20px'
             }}>
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
                     fontSize: '16px',
-                    margin: '0 40px',
-                    alignSelf: 'flex-end',
                     cursor: 'pointer'
                 }}>WHY US</a>
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
                     fontSize: '16px',
-                    margin: '0 40px',
-                    alignSelf: 'flex-end',
                     cursor: 'pointer'
                 }}>PRICING</a>
                 <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ height: '50px', margin: '0 40px' }} />
@@ -46,30 +42,28 @@ const Beta = () => {
                     color: '#000000',
                     textDecoration: 'none',
                     fontSize: '16px',
-                    margin: '0 40px',
-                    alignSelf: 'flex-end',
                     cursor: 'pointer'
                 }}>FAQ</a>
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
                     fontSize: '16px',
-                    margin: '0 40px',
-                    alignSelf: 'flex-end',
                     cursor: 'pointer'
                 }}>CLIENT LOGIN</a>
             </div>
             <div style={{
-                fontSize: '48px',
+                fontSize: '64px',
                 color: '#000000',
-                margin: '20px 0'
+                textAlign: 'center',
+                margin: '40px 0',
+                width: '80%'
             }}>
                 What do you need clarity on today?
             </div>
             <nav style={{
                 display: 'flex',
-                justifyContent: 'center',
-                gap: '40px',
+                justifyContent: 'space-between',
+                width: '80%',
                 fontSize: '24px',
                 color: '#777777',
                 marginTop: '10px'
@@ -78,19 +72,25 @@ const Beta = () => {
                     color: '#777777',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    flex: '1',
+                    textAlign: 'center'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
                 <a href="#" style={{
                     color: '#777777',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    flex: '1',
+                    textAlign: 'center'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
                 <a href="#" style={{
                     color: '#777777',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    flex: '1',
+                    textAlign: 'center'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
             </nav>
         </div>

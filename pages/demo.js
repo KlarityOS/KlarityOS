@@ -7,9 +7,9 @@ const Demo = () => {
         <img src="/BBV Intelligence Logo 4X.png" alt="BBV Intelligence Powered by Klarity" style={{ width: '100%', maxWidth: '400px' }} />
       </div>
       <div style={{ textAlign: 'right', marginBottom: '40px' }}>
-        <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Upload Files</span>
-        <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Client Portal</span>
-        <a href="https://klarityos.vercel.app/beta" style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px', textDecoration: 'none', color: 'inherit' }}>Home</a>
+        <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>UPLOAD FILES</span>
+        <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>CLIENT PORTAL</span>
+        <a href="https://klarityos.vercel.app/beta" style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px', textDecoration: 'none', color: 'inherit' }}>HOME</a>
       </div>
       <iframe
         title="Power BI Dashboard"

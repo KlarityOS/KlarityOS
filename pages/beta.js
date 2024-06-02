@@ -6,12 +6,13 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
             fontFamily: "'Shippori Antique', sans-serif",
-            padding: '20px'
+            padding: '20px',
+            position: 'relative'
         }}>
             <head>
                 <title>Klarity</title>
@@ -70,7 +71,7 @@ const Beta = () => {
                 fontSize: '24px',
                 color: '#777777',
                 marginTop: '10px',
-                marginBottom: '20px' // Added to bring the bottom menu closer to the center message
+                marginBottom: '40px'
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -104,9 +105,9 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '16px',
                 color: '#777777',
-                marginTop: '20px',
-                borderTop: '1px solid #e0e0e0',
-                paddingTop: '10px'
+                marginTop: 'auto',
+                paddingTop: '10px',
+                borderTop: '1px solid #e0e0e0'
             }}>
                 <span>© 2024 Klarity</span>
                 <a href="#" style={{
@@ -143,4 +144,10 @@ const Beta = () => {
                     textDecoration: 'none',
                     transition: 'color 0.3s',
                     cursor: 'pointer'
-                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.current
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Support</a>
+            </div>
+        </div>
+    );
+};
+
+export default Beta;

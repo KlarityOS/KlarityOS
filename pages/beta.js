@@ -6,7 +6,7 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
@@ -97,8 +97,50 @@ const Beta = () => {
                     textAlign: 'center'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
             </nav>
-        </div>
-    );
-};
-
-export default Beta;
+            <div style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                width: '80%',
+                maxWidth: '1200px',
+                fontSize: '16px',
+                color: '#777777',
+                marginTop: '20px',
+                borderTop: '1px solid #e0e0e0',
+                paddingTop: '10px'
+            }}>
+                <span>© 2024 Klarity</span>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Privacy Policy</a>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Terms of Service</a>
+            </div>
+            <div style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                width: '80%',
+                maxWidth: '1200px',
+                fontSize: '16px',
+                color: '#777777',
+                marginTop: '10px',
+                marginBottom: '10px'
+            }}>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>Contact Us</a>
+                <a href="#" style={{
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.current

@@ -6,7 +6,7 @@ const Beta = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             height: '100vh',
             backgroundColor: '#ffffff',
             color: '#000000',
@@ -23,7 +23,7 @@ const Beta = () => {
                 alignItems: 'flex-end',
                 width: '80%',
                 maxWidth: '1200px',
-                marginTop: '20px'
+                marginTop: '10px'
             }}>
                 <a href="#" style={{
                     color: '#000000',
@@ -64,6 +64,7 @@ const Beta = () => {
                 display: 'flex',
                 justifyContent: 'space-between',
                 width: '80%',
+                maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
                 marginTop: '10px'

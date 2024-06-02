@@ -46,7 +46,7 @@ const Beta = () => {
                     fontSize: '16px',
                     cursor: 'pointer'
                 }}>FAQ</a>
-                <a href="#" style={{
+                <a href="https://klarityos.vercel.app/demo" style={{
                     color: '#000000',
                     textDecoration: 'none',
                     fontSize: '16px',

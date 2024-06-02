@@ -1,27 +1,42 @@
-import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import '../styles/global.css'; // Import global styles
-import '../styles/beta.css'; // Import beta-specific styles
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
 
-const Beta = () => {
-    return (
-        <>
-            <Head>
-                <title>Klarity</title>
-            </Head>
-            <div className="container">
-                <Image src="/public/logo.png" alt="KLARITY" width={200} height={200} className="logo" />
-                <div className="centerMessage custom-font">Your Center Message Here</div>
-                <nav className="menu">
-                    <a href="#" className="menuItem custom-font">HOME</a>
-                    <a href="#" className="menuItem custom-font">FEATURES</a>
-                    <a href="#" className="menuItem custom-font">PRICING</a>
-                    <a href="#" className="menuItem custom-font">CONTACT</a>
-                </nav>
-            </div>
-        </>
-    );
-};
+.logo {
+    margin-bottom: 20px;
+}
 
-export default Beta;
+.centerMessage {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuItem {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menuItem:hover {
+    color: #ffffff;
+}
+
+.custom-font {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

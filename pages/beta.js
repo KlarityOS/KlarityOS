@@ -68,19 +68,19 @@ const Beta = () => {
                 width: '80%',
                 maxWidth: '1200px',
                 fontSize: '24px',
-                color: '#777777',
+                color: '#000000',
                 marginTop: '1px' // Adjusted to be closer to the center message
             }}>
                 <a href="#" style={{
-                    color: '#777777',
+                    color: '#000000',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
                     cursor: 'pointer',
                     flex: '1',
-                    textAlign: 'center'
+                    textAlign: 'left'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
                 <a href="#" style={{
-                    color: '#777777',
+                    color: '#000000',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
                     cursor: 'pointer',
@@ -88,12 +88,12 @@ const Beta = () => {
                     textAlign: 'center'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
                 <a href="#" style={{
-                    color: '#777777',
+                    color: '#000000',
                     textDecoration: 'none',
                     transition: 'color 0.3s',
                     cursor: 'pointer',
                     flex: '1',
-                    textAlign: 'center'
+                    textAlign: 'right'
                 }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
             </nav>
             <div style={{

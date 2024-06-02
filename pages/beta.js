@@ -54,11 +54,11 @@ const Beta = () => {
                 }}>CLIENT LOGIN</a>
             </div>
             <div style={{
-                fontSize: '64px',
+                fontSize: '70px',
                 color: '#000000',
                 textAlign: 'center',
                 margin: 'auto 0',
-                width: '80%'
+                width: '100%'
             }}>
                 What do you need clarity on today?
             </div>
@@ -69,8 +69,7 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginTop: '0px', // Adjusted to be closer to the center message
-                marginBottom: '10px' // Added marginBottom to ensure spacing from the footer
+                marginTop: '1px' // Adjusted to be closer to the center message
             }}>
                 <a href="#" style={{
                     color: '#777777',
@@ -104,7 +103,8 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '16px',
                 color: '#777777',
-                paddingBottom: '20px' // Adjusted paddingBottom to move footer slightly up
+                marginTop: 'auto', // Adjusting the footer position slightly up
+                paddingBottom: '50px' // Added padding to adjust the position of the footer
             }}>
                 <div style={{
                     textAlign: 'left'

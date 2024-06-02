@@ -60,7 +60,7 @@ const Beta = () => {
                 margin: 'auto 0',
                 width: '100%'
             }}>
-                What would you like to have clarity on today?
+                What do you need clarity on today?
             </div>
             <nav style={{
                 display: 'flex',

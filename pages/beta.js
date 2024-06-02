@@ -65,5 +65,40 @@ const Beta = () => {
             <nav style={{
                 display: 'flex',
                 justifyContent: 'center',
-    
+                width: '100%',
+                maxWidth: '800px',
+                marginTop: '20px',
+                fontSize: '24px',
+                color: '#777777'
+            }}>
+                <a href="#" style={{
+                    flex: 1,
+                    textAlign: 'center',
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>ACCOUNTING</a>
+                <a href="#" style={{
+                    flex: 1,
+                    textAlign: 'center',
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>BUSINESS OPERATIONS</a>
+                <a href="#" style={{
+                    flex: 1,
+                    textAlign: 'center',
+                    color: '#777777',
+                    textDecoration: 'none',
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                }} onMouseOver={(e) => e.currentTarget.style.color = '#000000'} onMouseOut={(e) => e.currentTarget.style.color = '#777777'}>CAPITAL STRATEGY</a>
+            </nav>
+        </div>
+    );
+};
+
+export default Beta;
 

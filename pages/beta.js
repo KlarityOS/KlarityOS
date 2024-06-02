@@ -21,7 +21,7 @@ const Beta = () => {
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center',
+                alignItems: 'flex-end',
                 width: '100%',
                 maxWidth: '1200px',
                 marginBottom: '20px'
@@ -29,30 +29,30 @@ const Beta = () => {
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
-                    fontSize: '14px',
-                    margin: '0 20px',
+                    fontSize: '16px',
+                    margin: '0 40px',
                     cursor: 'pointer'
                 }}>WHY US</a>
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
-                    fontSize: '14px',
-                    margin: '0 20px',
+                    fontSize: '16px',
+                    margin: '0 40px',
                     cursor: 'pointer'
                 }}>PRICING</a>
-                <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ height: '50px', margin: '0 20px' }} />
+                <img src="/KLARITY%20Logo.png" alt="KLARITY" style={{ height: '50px', margin: '0 40px' }} />
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
-                    fontSize: '14px',
-                    margin: '0 20px',
+                    fontSize: '16px',
+                    margin: '0 40px',
                     cursor: 'pointer'
                 }}>FAQ</a>
                 <a href="#" style={{
                     color: '#000000',
                     textDecoration: 'none',
-                    fontSize: '14px',
-                    margin: '0 20px',
+                    fontSize: '16px',
+                    margin: '0 40px',
                     cursor: 'pointer'
                 }}>CLIENT LOGIN</a>
             </div>

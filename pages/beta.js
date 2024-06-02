@@ -61,14 +61,14 @@ const Beta = () => {
                 margin: '20px 0',
                 color: '#777777'
             }}>
-                Your Center Message Here
+                What do you need clarity on today?
             </div>
             <nav style={{
                 display: 'flex',
                 justifyContent: 'center',
                 gap: '40px',
                 marginTop: '20px',
-                fontSize: '24px',
+                fontSize: '78px',
                 color: '#777777'
             }}>
                 <a href="#" style={{

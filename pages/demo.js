@@ -9,7 +9,7 @@ const Demo = () => {
       <div style={{ textAlign: 'right', marginBottom: '40px' }}>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Upload Files</span>
         <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Client Portal</span>
-        <span style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px' }}>Home</span>
+        <a href="https://klarityos.vercel.app/beta" style={{ margin: '0 15px', cursor: 'pointer', fontSize: '20px', textDecoration: 'none', color: 'inherit' }}>Home</a>
       </div>
       <iframe
         title="Power BI Dashboard"

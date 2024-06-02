@@ -69,7 +69,7 @@ const Beta = () => {
                 maxWidth: '1200px',
                 fontSize: '24px',
                 color: '#777777',
-                marginTop: '10px' // Adjusted to be closer to the center message
+                marginTop: '5px' // Adjusted to be closer to the center message
             }}>
                 <a href="#" style={{
                     color: '#777777',
